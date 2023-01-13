@@ -17,34 +17,3 @@ Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"Сумма числа {num} равно {Result(num)[0] + Result(num)[1]}");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// int revers = 0;
-
-// Console.Write("Введите число: ");
-// int num = Convert.ToInt32(Console.ReadLine());
-
-// int current = num;
-
-// while (current != 0)
-// {
-//     revers = revers * 10;
-//     revers = revers + current % 10;
-//     current = current / 10;
-// }
-// if(num == revers) Console.WriteLine("Это палиндром.");
-// else Console.WriteLine("Это не палиндром.");
