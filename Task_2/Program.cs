@@ -1,4 +1,4 @@
-﻿//Task 2 
+//Task 2 
 
 int[] Result(int num)
 {
